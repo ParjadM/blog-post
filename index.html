@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="./styles/Styles.css">
+  </head>
+  <body>
+    <!-- === Header Section === -->
+    <header>
+      <!-- titel of the blog -->
+      <h1>
+        <strong><em>Web Development Journal</em></strong>
+      </h1>
+      <!-- navigation bar -->
+      <nav>
+        <ul>
+          <li><a href="#" class="nav">Home</a></li>
+          <li><a href="#" class="nav">Blogs</a></li>
+          <li><a href="#" class="nav">About</a></li>
+          <li><a href="#" class="nav">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- === Main Content === -->
+    <main>
+      <!-- === Blog Post === -->
+      <article>
+        <h2 id="title">Hello World</h2>
+        <p id="time">By <em>Parjad Minooei</em> | published on February 10, 2025</p>
+        <p class="subheading"><strong>Starting your journey into web development.</strong></p>
+        <p class="blogpost">
+           Starting your journey into web development can be both exciting and overwhelming. 
+           The "Hello World" program is a rite of passage for beginners, symbolizing the first step into coding.
+        </p>
+
+        <p class="blogpost">
+          "Hello World" is used universally in programming. It is the first program that is written by the programmer.
+          It is used to illustrate the basic syntax of a programming language.
+          For more information on "Hello World", check out this article:
+          <a href="#">Why Hello World?</a>
+          It is a simple program that outputs the phrase "Hello, World!" to the screen.
+        </p>
+        <h2>Why "Hello World"</h2>
+        <p class="subheading">
+          <strong>Explaining Why We Create "Hello World"</strong>
+        </p>
+        <p class="blogpost">
+          In the world of programming, programmers usually start by creating an app called "Hello World". 
+          I will explain more in detail in another blog how to create a "Hello World" app using HTML and provide the code.
+          In web development, HTML is the structure of programming and is used frequently.
+        </p>
+        <h2>Conclusion</h2>
+        <p class="subheading">
+          <strong>Congratulations you've read your first "Hello World" blog post</strong>
+        </p>
+        <!-- Image source: https://day-off.app/2024/04/08/congratulations-on-the-achievement-messages/ -->
+        <img src="./images/Congratulations.jpg" alt="Congratulations">
+        <p class="blogpost">
+          You've taken the first step into the world of web development. The
+          "Hello World" program is a simple yet powerful way to start your
+          journey into coding. Stay tuned for more blog posts on web development
+          and programming. Remember, the key to success is practice and
+          persistence. Keep coding and you'll be a web developer in no time!
+        </p>
+      </article>
+
+      <!-- === Sidebar === -->
+      <aside>
+        <!-- Info and tips -->
+        <h2>"Hello World" Tips!</h2>
+        <p class="blogpost">
+          Type ! for shortcut to create the structure of HTML. Wrap the text
+          "Hello World" in the body tag. Save the file as .html extension.
+        </p>
+        <section id="about-author">
+          <h3>About the Author</h3>
+          <!-- Image source: My image -->
+          <img src="./images/Parjad.jpg" alt="Parjad Minooei" >
+          <p>Hi, I'm Parjad, A Web Developer with a passion about coding.</p>
+        </section>
+      </aside>
+
+      <!-- === Comments Section === -->
+      <article id="comments">
+        <h2>Post Your Comment Here!</h2>
+        <!-- form for comments -->
+        <form>
+          <fieldset>
+            <legend>Comments!</legend>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="comment">Comment:</label>
+              <textarea id="comment" name="comment" placeholder="Write your comment here..." required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </article>
+    </main>
+    <!-- === Footer === -->
+    <footer>
+      <!-- Author -->
+      <p><strong>Author: Parjad Minooei &copy; 2025</strong></p>
+      <!-- Navigation -->
+      <nav>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+      </nav> 
+    </footer>
+  </body>
+</html>
